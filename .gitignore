@@ -127,3 +127,45 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# ## Linux ###
+* ~
+
+# archivos temporales que se pueden crear si un proceso todavía tiene un identificador abierto de un archivo eliminado
+.fuse_hidden *
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Papelera- *
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs *
+
+# ## Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Volcar archivo
+* .stackdump
+
+# archivo de configuración de la carpeta
+[ Dd ] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$RECICLAJE.BIN /
+
+# archivos del instalador de Windows
+* .cabina
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Atajos de Windows
+* .lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/linux,windows
